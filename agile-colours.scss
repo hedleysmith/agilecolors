@@ -1,0 +1,64 @@
+/**
+ * Agile Colours
+ * Useful tools to auto-generate colours
+ * By @hedley_smith
+ */
+
+$base-color: #00a0df; // Set a base color
+$complement: complement($base-color); // Determine a complementary color
+$split1: adjust-hue($base-color, 158); // Split complements
+$split2: adjust-hue($base-color, -158);
+$triad1: adjust-hue($base-color, 135); // Triads colors
+$triad2: adjust-hue($base-color, -135);
+$tetra1: adjust-hue($base-color, 90); // Tetra colors
+$tetra2: adjust-hue($base-color, -90);
+$analog1: adjust-hue($base-color, 22); // Analogs colors
+$analog2: adjust-hue($base-color, -22);
+
+$base-color-dark: adjust-lightness($base-color, -50); 
+
+// Create default classes, remove if these are not nescessary
+
+.base-color {
+	background-color: $base-color;
+}
+
+.complement {
+  background-color: $complement;
+}
+
+.split1 {
+  background-color: $split1;
+}
+
+.split2 {
+  background-color: $split2;
+}
+
+.triad1 {
+  background-color: $triad1;
+}
+
+.triad2 {
+  background-color: $triad2;
+}
+
+.tetra1 {
+  background-color: $tetra1;
+}
+
+.tetra2 {
+  background-color: $tetra2;
+}
+
+.analog1 {
+  background-color: $analog1;
+}
+
+.analog2 {
+  background-color: $analog2;
+}
+
+.base-color-dark {
+  background-color: $base-color-dark;
+}
