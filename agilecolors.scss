@@ -4,23 +4,40 @@
  * By @hedley_smith
  */
 
-$base-color: #00a0df; // Set a base color
-$complement: complement($base-color); // Determine a complementary color
-$split1: adjust-hue($base-color, 158); // Split complements
+$base-color: #00a0df;
+
+// Set a base color
+
+$complement: complement($base-color);
+
+// Determine a complementary color
+
+$split1: adjust-hue($base-color, 158);
+
+// Split complements
 $split2: adjust-hue($base-color, -158);
-$triad1: adjust-hue($base-color, 135); // Triads colors
+
+$triad1: adjust-hue($base-color, 135);
+
+// Triads colors
 $triad2: adjust-hue($base-color, -135);
-$tetra1: adjust-hue($base-color, 90); // Tetra colors
+
+$tetra1: adjust-hue($base-color, 90);
+
+// Tetra colors
 $tetra2: adjust-hue($base-color, -90);
-$analog1: adjust-hue($base-color, 22); // Analogs colors
+
+$analog1: adjust-hue($base-color, 22);
+
+// Analogs colors
 $analog2: adjust-hue($base-color, -22);
 
-$base-color-dark: adjust-lightness($base-color, -50); 
+$base-color-dark: adjust-lightness($base-color, -50);
 
 // Create default classes, remove if these are not nescessary
 
 .base-color {
-	background-color: $base-color;
+  background-color: $base-color;
 }
 
 .complement {

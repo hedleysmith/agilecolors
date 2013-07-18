@@ -1,0 +1,27 @@
+/**
+ * Color boxes
+ */
+
+.color-grid {
+  $_gutter: 10px;
+  .color-box {
+    width: 250px;
+    float: left;
+    margin: 0 $_gutter $_gutter;
+  }
+  .color-box-inner {
+    padding: 4px;
+    border: 1px solid #666;
+  }
+  .color-box-swatch {
+    padding: 4px;
+    font-size: 11px;
+    height: 130px;
+    line-height: 130px;
+  }
+  .color-box-label {
+    background-color: #FFF;
+    padding: 3px;
+    font-weight: bold;
+  }
+}

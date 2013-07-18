@@ -1,0 +1,37 @@
+/**
+ * Agile Colours
+ * Useful tools to auto-generate colours
+ * By @hedley_smith
+ */
+.base-color {
+  background-color: #00a0df; }
+
+.complement {
+  background-color: #df3f00; }
+
+.split1 {
+  background-color: #df0013; }
+
+.split2 {
+  background-color: #df9100; }
+
+.triad1 {
+  background-color: #df0068; }
+
+.triad2 {
+  background-color: #d8df00; }
+
+.tetra1 {
+  background-color: #ae00df; }
+
+.tetra2 {
+  background-color: #31df00; }
+
+.analog1 {
+  background-color: #004edf; }
+
+.analog2 {
+  background-color: #00dfcc; }
+
+.base-color-dark {
+  background-color: adjust-lightness(#00a0df, -50); }

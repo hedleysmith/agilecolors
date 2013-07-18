@@ -1,0 +1,19 @@
+/**
+ * Color boxes
+ */
+.color-grid .color-box {
+  width: 250px;
+  float: left;
+  margin: 0 10px 10px; }
+.color-grid .color-box-inner {
+  padding: 4px;
+  border: 1px solid #666; }
+.color-grid .color-box-swatch {
+  padding: 4px;
+  font-size: 11px;
+  height: 130px;
+  line-height: 130px; }
+.color-grid .color-box-label {
+  background-color: #FFF;
+  padding: 3px;
+  font-weight: bold; }
